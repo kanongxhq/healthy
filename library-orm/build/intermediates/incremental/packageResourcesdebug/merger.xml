@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\AndroidStudioProjects\AisenWeiBo-master\library-orm\src\main\res"/><source path="F:\AndroidStudioProjects\AisenWeiBo-master\library-orm\build\generated\res\rs\debug"/><source path="F:\AndroidStudioProjects\AisenWeiBo-master\library-orm\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug"><source path="F:\AndroidStudioProjects\AisenWeiBo-master\library-orm\src\debug\res"/></dataSet><mergedItems/></merger>

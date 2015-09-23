@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/AndroidStudioProjects/AisenWeiBo-master/library/src/main/res/values-v21/comm_styles.xml -->
+    <eat-comment/>
+    <style name="LoadingProgressBar">
+        android:indeterminateDrawable="@drawable/loading_bar1
+    </style>
+</resources>

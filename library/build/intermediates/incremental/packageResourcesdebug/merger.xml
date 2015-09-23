@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res"><file name="comm_tab_text_color" path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\color\comm_tab_text_color.xml" qualifiers="" type="color"/><file name="comm_lay_dragsort_list" path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\layout\comm_lay_dragsort_list.xml" qualifiers="" type="layout"/><file name="comm_lay_emptyview" path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\layout\comm_lay_emptyview.xml" qualifiers="" type="layout"/><file name="comm_lay_footerview" path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\layout\comm_lay_footerview.xml" qualifiers="" type="layout"/><file name="comm_lay_gridview" path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\layout\comm_lay_gridview.xml" qualifiers="" type="layout"/><file name="comm_lay_listview" path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\layout\comm_lay_listview.xml" qualifiers="" type="layout"/><file name="comm_lay_loadfailed" path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\layout\comm_lay_loadfailed.xml" qualifiers="" type="layout"/><file name="comm_lay_loading" path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\layout\comm_lay_loading.xml" qualifiers="" type="layout"/><file name="comm_lay_swiperefreshlist" path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\layout\comm_lay_swiperefreshlist.xml" qualifiers="" type="layout"/><file name="comm_lay_swipy_grid" path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\layout\comm_lay_swipy_grid.xml" qualifiers="" type="layout"/><file name="comm_lay_tab_indicator" path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\layout\comm_lay_tab_indicator.xml" qualifiers="" type="layout"/><file name="comm_lay_toolbar" path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\layout\comm_lay_toolbar.xml" qualifiers="" type="layout"/><file name="comm_ui_fragment_container" path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\layout\comm_ui_fragment_container.xml" qualifiers="" type="layout"/><file name="comm_ui_tablayout" path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\layout\comm_ui_tablayout.xml" qualifiers="" type="layout"/><file name="comm_ui_tabs" path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\layout\comm_ui_tabs.xml" qualifiers="" type="layout"/><file path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\values\comm_attrs.xml" qualifiers=""><declare-styleable name="RoundImageView">
+        <attr format="dimension" name="borderRadius"/>
+        <attr name="type">
+            <enum name="round" value="1"/>
+            <enum name="circle" value="0"/>
+        </attr>
+    </declare-styleable><declare-styleable name="CircleImageView">
+        <attr format="dimension" name="border_width"/>
+        <attr format="color" name="border_color"/>
+    </declare-styleable></file><file path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\values\comm_colors.xml" qualifiers=""><color name="comm_transparent">#00000000</color><color name="comm_gray">#FF888888</color><color name="comm_tab_selected_strip">#ffffffff</color><color name="comm_red">#FFFF0000</color><color name="comm_black">#FF000000</color><color name="comm_blue">#FF52A0DB</color><color name="comm_white">#FFffffff</color></file><file path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\values\comm_dimens.xml" qualifiers=""><dimen name="comm_v_margin">16dip</dimen><dimen name="comm_v_gap">10dip</dimen><dimen name="comm_h_gap">10dip</dimen><dimen name="comm_h_margin">16dip</dimen></file><file path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\values\comm_exception.xml" qualifiers=""><string name="comm_error_timeout">网络不给力</string><string name="comm_error_resultIllegal">数据解析出错</string><string name="comm_error_noneNetwork">没有网络连接</string></file><file path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\values\comm_ids.xml" qualifiers=""><item name="drag_handle" type="id"/><item name="layoutRefresh" type="id"/><item name="layoutProcessing" type="id"/><item name="layoutLoading" type="id"/><item name="click_remove" type="id"/><item name="layoutLoadFailed" type="id"/><item name="layoutReload" type="id"/><item name="layoutContent" type="id"/><item name="txtLoadFailed" type="id"/><item name="txtLoadEmpty" type="id"/><item name="listView" type="id"/><item name="toolbar" type="id"/><item name="layoutEmpty" type="id"/></file><file path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\values\comm_strings.xml" qualifiers=""><string-array name="prefValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array><string name="comm_dialog_hint">提示</string><string name="comm_reload_hint">刷新看看</string><string name="comm_hint_copied">已经复制 %s</string><string name="comm_request_more">加载更多</string><string name="comm_request_disable">全部都加载完了</string><string name="comm_hint_exit">再按一次退出</string><string name="comm_request_loading">加载中...</string></file><file path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\values\comm_styles.xml" qualifiers=""><style name="LoadingProgressBar">
+        android:indeterminateDrawable="@drawable/loading_bar1
+    </style></file><file path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\values\dslv_attrs.xml" qualifiers=""><declare-styleable name="DragSortListView">
+    <attr format="dimension" name="collapsed_height"/>
+    <attr format="float" name="drag_scroll_start"/>
+    <attr format="float" name="max_drag_scroll_speed"/>
+    <attr format="color" name="float_background_color"/>
+    <attr name="remove_mode">
+      <enum name="clickRemove" value="0"/>
+      <enum name="flingRemove" value="1"/>
+    </attr>
+    <attr format="boolean" name="track_drag_sort"/>
+    <attr format="float" name="float_alpha"/>
+    <attr format="float" name="slide_shuffle_speed"/>
+    <attr format="integer" name="remove_animation_duration"/>
+    <attr format="integer" name="drop_animation_duration"/>
+    <attr format="boolean" name="drag_enabled"/>
+    <attr format="boolean" name="sort_enabled"/>
+    <attr format="boolean" name="remove_enabled"/>
+    <attr name="drag_start_mode">
+      <enum name="onDown" value="0"/>
+      <enum name="onMove" value="1"/>
+      <enum name="onLongPress" value="2"/>
+    </attr>
+    <attr format="integer" name="drag_handle_id"/>
+    <attr format="integer" name="fling_handle_id"/>
+    <attr format="integer" name="click_remove_id"/>
+    <attr format="boolean" name="use_default_controller"/>
+  </declare-styleable></file><file path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\values\swipyrefresh_attrs.xml" qualifiers=""><declare-styleable name="SwipyRefreshLayout">
+        <attr name="direction">
+            <enum name="top" value="0"/>
+            <enum name="bottom" value="1"/>
+            <enum name="both" value="2"/>
+        </attr>
+    </declare-styleable></file><file path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\main\res\values-v21\comm_styles.xml" qualifiers="v21"><style name="LoadingProgressBar">
+        android:indeterminateDrawable="@drawable/loading_bar1
+    </style></file></source><source path="F:\AndroidStudioProjects\AisenWeiBo-master\library\build\generated\res\rs\debug"/><source path="F:\AndroidStudioProjects\AisenWeiBo-master\library\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug"><source path="F:\AndroidStudioProjects\AisenWeiBo-master\library\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="SwipyRefreshLayout"><attr name="direction"><enum name="top" value="0"/><enum name="bottom" value="1"/><enum name="both" value="2"/></attr></declare-styleable><declare-styleable name="DragSortListView"><attr format="dimension" name="collapsed_height"/><attr format="float" name="drag_scroll_start"/><attr format="float" name="max_drag_scroll_speed"/><attr format="color" name="float_background_color"/><attr name="remove_mode"><enum name="clickRemove" value="0"/><enum name="flingRemove" value="1"/></attr><attr format="boolean" name="track_drag_sort"/><attr format="float" name="float_alpha"/><attr format="float" name="slide_shuffle_speed"/><attr format="integer" name="remove_animation_duration"/><attr format="integer" name="drop_animation_duration"/><attr format="boolean" name="drag_enabled"/><attr format="boolean" name="sort_enabled"/><attr format="boolean" name="remove_enabled"/><attr name="drag_start_mode"><enum name="onDown" value="0"/><enum name="onMove" value="1"/><enum name="onLongPress" value="2"/></attr><attr format="integer" name="drag_handle_id"/><attr format="integer" name="fling_handle_id"/><attr format="integer" name="click_remove_id"/><attr format="boolean" name="use_default_controller"/></declare-styleable><declare-styleable name="RoundImageView"><attr format="dimension" name="borderRadius"/><attr name="type"><enum name="round" value="1"/><enum name="circle" value="0"/></attr></declare-styleable><declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/></declare-styleable></configuration></mergedItems></merger>

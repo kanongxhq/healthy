@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:id="@+id/itemDivider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/mainmenu_divider"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="6dp"
+            android:clickable="false"
+            android:layout_marginLeft="@dimen/mainmenu_item_leftpadding"/>
+
+        <LinearLayout
+            android:id="@+id/itemContent"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mainmenu_item_height">
+
+            <View
+                android:id="@+id/viewLeftPadding"
+                android:layout_width="@dimen/mainmenu_item_leftpadding"
+                android:layout_height="match_parent"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/menu_icon"
+                android:src="@drawable/rlist"/>
+
+            <TextView
+                android:id="@+id/menu_title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:textSize="@dimen/mainmenu_item_textsize"
+                android:text="TextView"/>
+            <TextView
+                android:id="@+id/txtCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="6.0dip"
+                android:paddingRight="6.0dip"
+                android:singleLine="true"
+                android:text="1"
+                android:textSize="14.0sp"
+                android:visibility="gone"
+                />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/triangle"
+                     />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
